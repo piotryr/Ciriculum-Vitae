@@ -1,0 +1,156 @@
+/* Navba Section */
+td, tr{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3.5rem;
+    line-height: 1.5;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar-section{
+    text-align: left;
+    padding: 1% 15%;
+}
+.brand-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 3.5rem;
+}
+
+/* Tilte section */
+
+.my-image{
+    width: 15%;
+    position: absolute;
+    right: 25%;
+}
+.title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 3.5rem;
+    padding: 5% 0%;
+    
+}
+
+.photo-tilte{
+    padding: 3% 15%;
+}
+.photo-box{
+    text-align: center;
+}
+
+/* Education section */
+
+.education-section{
+    padding: 2% 15%;
+    text-align: center;
+}
+.image-edu{
+    columns: red;
+    width: 40%;
+}
+.education-col{
+    padding-top: 2%;
+}
+.faculty-text{
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+.big-title{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2% 0; 
+    text-align: center;
+}
+
+/* Sections white and colored */
+
+.white-section{
+    background-color: #fff;
+    position: relative;
+}
+.colored-section{
+    background-color: #14C38E;
+    color: white;
+}
+
+/* Work experience section */
+.carousel-inner{
+    text-align: center;
+}
+
+.image-carousel{
+    width: 150px;
+    margin-bottom: 1%;
+}
+.text-carousel{
+    padding: 0 40% 3%;
+}
+.carousel-table{
+    padding:1% 15% 50px;
+}
+
+/* Skills */
+
+.skills-row{
+    padding: 1% 25%;
+    
+}
+.skills-icon{
+    padding: 3% 3%;
+    color: #B8F1B0;
+}
+.skills-icon:hover{
+    color:#14C38E
+}
+.excel-icon{
+    padding-bottom: 12px;
+    color: #B8F1B0;
+}
+.skills-text{
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    color: #8f8f8f;
+}
+
+/* Languages */
+
+.languages-row{
+    padding: 2% 30%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.language-img{
+    width: 30%;
+}
+.language-text{
+    padding: 5% 1%;
+    text-align: center;
+}
+
+/* Contact  */
+
+.contact-container{
+    padding: 3% 15%;
+    text-align: center;
+}
+.contact-icon{
+    margin: 2% 1%;
+}
+.contact-icon:hover{
+    color: #14C38E;
+}
+
+@media (max-width: 1028px){
+    .my-image{
+        position: static;
+        width: 180px;
+    }
+    .image-edu{
+        width: 180px; 
+    }
+    .language-img{
+        width: 80px;
+    }
+
+}
